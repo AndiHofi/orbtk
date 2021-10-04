@@ -430,8 +430,7 @@ dependencies = [
 [[package]]
 name = "orbclient"
 version = "0.3.31"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "0c976c5018e7f1db4359616d8b31ef8ae7d9649b11803c0b38fff67fd2999fc8"
+source = "git+https://github.com/AndiHofi/orbclient.git?branch=master#8ef4433da9871d6f6e8c11d0b863f737144d19f1"
 dependencies = [
  "libc",
  "raw-window-handle",

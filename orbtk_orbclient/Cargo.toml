@@ -16,7 +16,7 @@ doctest = false
 lazy_static = "1.4.0"
 raw-window-handle = "0.3"
 image = { version = "0.23",  default-features = false, features = ["ico"] }
-orbclient = "0.3.31"
+orbclient = { git = "https://github.com/AndiHofi/orbclient.git", branch = "master" }
 
 # orbtk
 orbtk_tinyskia = { path = "../orbtk_tinyskia", version = "0.3.1-alpha4", default-features = false }
